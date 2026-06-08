@@ -7,12 +7,12 @@ void main() {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Crea la tua compilation:");
     System.out.println("  1 → Audio   2 → Video   3 → Immagine   0 → stop");
-    System.out.println("Hai 3 spazi disponibili.\n");
+    System.out.println("Hai 5 spazi disponibili.\n");
 
-    Media[] lista = new Media[3];
+    Media[] lista = new Media[5];
 
     for (int i = 0; i < lista.length; i++) {
-        System.out.print("Slot " + (i + 1) + "/3 (0 per fermarsi): ");
+        System.out.print("Slot " + (i + 1) + "/5 (0 per fermarsi): ");
         int scelta = scanner.nextInt();
         scanner.nextLine();
 
